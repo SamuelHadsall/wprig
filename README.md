@@ -9,18 +9,18 @@
 ## Your Performance-Focused Development Rig
 A progressive theme development rig for WordPress, WP Rig is built to promote the latest best practices for progressive web content and optimization. Building a theme from WP Rig means adopting this approach and the core principles it is built on:
 - Accessibility
-- [Lazy-loading of images ](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
 - Mobile-first
 - Progressive enhancement
 - [Resilient Web Design](https://resilientwebdesign.com/)
 - Progressive Web App enabled
 - AMP-ready
 
-## Documentation
-Documentation for the WP Rig Open Source Project can be found at the dedicated [Docs](https://github.com/wprig/docs/) repo.
+We are trying to be the starter theme for design-focused devs. If you have any ideas, questions, or suggestions for this project, or are seeking to get involved in contributing or maintaining, please check out
+our [discussion board on Github](https://github.com/wprig/wprig/discussions) and read [our contribute page](https://wprig.io/contribute/) on our website.
 
-## Office Hours
-WP Rig office hours are on hiatus and not actively scheduled at this time.
+## Documentation
+We have a new Documentation area that can be found on the [WP Rig website](https://wprig.io/documentation/).
+If you would like to contribute to our documentation efforts, please submit a request on our [contribute page](https://wprig.io/contribute/) on our website.
 
 ## Installation
 WP Rig has been tested on Linux, Mac, and Windows.
@@ -31,6 +31,9 @@ WP Rig requires the following dependencies. Full installation instructions are p
 - [PHP](http://php.net/) 7.0
 - [npm](https://www.npmjs.com/)
 - [Composer](https://getcomposer.org/) (installed globally)
+
+### WP Rig and child themes
+WP Rig is built to lay a solid theme foundation, which is great for a parent theme, but not for a child theme. A child theme is meant to only add on or modify the foundation. As such, WP Rig is not intended for making child themes to extend any themes, whether they were originally built with WP Rig or not.
 
 ### How to install WP Rig:
 1. Clone or download this repository to the themes folder of a WordPress site on your development environment.
