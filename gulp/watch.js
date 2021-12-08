@@ -16,6 +16,7 @@ import { reload } from './browserSync';
 import images from './images';
 import scripts from './scripts';
 import styles from './styles';
+import sassStyles from './sassStyles';
 import editorStyles from './editorStyles';
 
 /**
